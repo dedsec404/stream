@@ -5,6 +5,7 @@ $VideoHash = md5(uniqid());
 $_SESSION[$VideoHash] = "https://www.googleapis.com/drive/v3/files/$ID_File?key=AIzaSyBDxIV0cTa6fpeHzkZ5B763dcA7FhjoTYs&alt=media";
 ?> 
 
+<title>ChiisaiNime Stream</title>
 <head>
 <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
 </head>
